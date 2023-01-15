@@ -1,0 +1,104 @@
+/*позиционирование (расположение на странице)*/
+.tramsform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 1745px;
+    margin-top: -53px;
+    /*53 px на перекрытие*/
+}
+
+.tramsform_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1105px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tramsform h1 {
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-top: 173px;
+}
+
+.tramsform h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tramsform p {
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+
+.tramsform_botton {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+/*Antistrees Meditation*/
+.Antistrees_Meditation {
+    display: flex;
+    width: 1520px;
+    height: 553.85px;
+    margin-top: 70px;
+    flex-direction: row;
+}
+
+.Antistrees_Meditation_aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 198.32px;
+}
+
+
+/*Backyark Band Meditation*/
+.Backyark_Band_Meditation {
+    display: flex;
+    width: 1520px;
+    height: 532.46px;
+    margin-top: 70.09px;
+    flex-direction: row;
+}
+
+.Backyark_Band_Meditation_aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Backyark_Band_Meditation img {
+    padding-left: 135.35px;
+}
+
+/*Оформление текста*/
+.tramsform h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.tramsform p {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.tramsform_p p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+.tramsform {
+    background-image: url(assets_new/transform/background.png);
+    background-color: rgba(59, 209, 187, 0.09);
+}

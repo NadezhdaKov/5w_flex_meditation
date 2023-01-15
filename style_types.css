@@ -1,0 +1,77 @@
+/*позиционирование (расположение на странице)*/
+
+.types {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    height: 700px;
+}
+
+.types aside {
+    margin-top: 70px;
+    display: block;
+}
+
+.types img {
+    margin-top: 87.75px;
+    margin-left: 210px;
+}
+
+.types h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.types p {
+    width: 324px;
+    margin-left: 98px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.botton {
+    margin-left: 155px;
+    margin-top: 60px;
+}
+
+
+/*Оформление текста*/
+.types h2 {
+    text-align: center;
+    color: #000000;
+}
+
+.types p {
+    text-align: center;
+    color: #000000;
+}
+
+.types_p {
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+#types_meditation {
+    background-image: url(assets_new/types/aside_fon_1.png);
+    width: 520px;
+    /*секция Meditation*/
+}
+
+#types_yoga {
+    background-image: url(assets_new/types/aside_fon_2.svg);
+    width: 520px;
+}
+
+#types_sound {
+    background-image: url(assets_new/types/aside_fon_3.svg);
+    width: 520px;
+}
+
+.types {
+    background-color: rgba(59, 209, 187, 0.09);
+}

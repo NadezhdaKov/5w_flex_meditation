@@ -1,0 +1,65 @@
+/*позиционирование (расположение на странице)*/
+.footer {
+    width: 1920px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_naw,
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.foter_logo {
+    width: 151.83px;
+    height: 120.09px;
+    margin-top: 112.96px;
+}
+
+.footer_naw {
+    width: 780px;
+    margin-top: 33.91px;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 225px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+
+/*Оформление текста*/
+.footer_naw a {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+}
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+.footer {
+    background-color: rgba(59, 209, 187, 0.09);
+    background-image:
+        url(assets_new/footer/background.png);
+    background-repeat: no-repeat;
+}
+
+
+/*Анимация и динамические эффекты*/
+.footer_naw a:hover {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: rgb(240, 133, 11);
+}

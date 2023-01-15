@@ -1,0 +1,90 @@
+/*позиционирование (расположение на странице)*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920.89px;
+    height: 1065px;
+    align-items: stretch;
+}
+
+.hero h1 {
+    width: 758px;
+    height: 176px;
+    margin-left: 581px;
+    margin-top: 70px;
+    margin-bottom: 22px;
+}
+
+.hero p {
+    width: 1109px;
+    height: 62px;
+    margin-left: 405px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero_botton {
+    width: 300px;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 809px;
+}
+
+.hero_botton a {
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 17px;
+}
+
+.hero img {
+    height: 558px;
+    width: 591px;
+    margin-top: 70px;
+    margin-left: 665px;
+}
+
+
+/*Оформление текста*/
+.hero h1 {
+    font-size: 68px;
+    color: #FFFFFF;
+}
+
+.hero p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.hero_botton a {
+    display: block;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+.hero {
+    background-color: rgba(59, 209, 187, 0.09);
+    background-image: url(assets_new/hero/hero_section\ 1.svg);
+}
+
+.hero_botton {
+    background: linear-gradient(180deg, #259385 0%, #159685 100%);
+    box-shadow: 0px 20px 40px rgba(21, 113, 101, 0.2);
+    border-radius: 50px;
+}
+
+
+/*Анимация и динамические эффекты*/
+.hero_botton:hover {
+    background: linear-gradient(180deg, rgb(19, 95, 85) 0%, #1A7F72 100%);
+    box-shadow: 0px 13px 28px rgba(26, 127, 114, 0.2);
+    border-radius: 50px;
+}

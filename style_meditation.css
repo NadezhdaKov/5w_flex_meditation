@@ -1,0 +1,130 @@
+/*позиционирование (расположение на странице)*/
+.meditation {
+    display: flex;
+    width: 1920px;
+    height: 1314px;
+    flex-direction: column;
+    flex-basis: content;
+    align-items: center;
+}
+
+#h_meditation {
+    width: 1105px;
+    height: 154px;
+    margin-top: 128px;
+    margin-bottom: 70px;
+}
+
+#h_meditation h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.meditation_div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*meditation_aside_1*/
+.meditation_aside_1 {
+    height: 808px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.meditation_aside_1 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between
+}
+
+.meditation_aside_1 h2 {
+    padding-right: 37px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.meditation_aside_1 p {
+    width: 483px;
+    margin-left: 81px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+/*meditation_aside_2*/
+.meditation_aside_2 {
+    margin-left: 73.1px;
+    margin-right: 72.89px;
+}
+
+
+/*meditation_aside_3*/
+.meditation_aside_3 {
+    height: 808px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.meditation_aside_3 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between
+}
+
+.meditation_aside_3 h2 {
+    padding-top: 0;
+    padding-left: 37px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.meditation_aside_3 p {
+    width: 483px;
+    margin-left: 37px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+/*Оформление текста*/
+#h_meditation p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.meditation p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.meditation_aside_1 h2 {
+    text-align: right;
+}
+
+.meditation_aside_1 p {
+    text-align: right;
+}
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+.meditation {
+    background: url(assets_new/meditation/Background.png);
+    margin-top: -65px;
+}
+
+.meditation_aside_1 aside {
+    background-image: url(assets_new/meditation/bacground_aside_1.png);
+    width: 601px;
+    height: 204px;
+}
+
+.meditation_aside_3 aside {
+    background-image: url(assets_new/meditation/bacground_aside_2.png);
+    width: 601px;
+    height: 204px;
+}

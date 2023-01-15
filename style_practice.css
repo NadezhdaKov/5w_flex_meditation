@@ -1,0 +1,128 @@
+/*позиционирование (расположение на странице)*/
+.practice {
+    display: flex;
+    width: 1920px;
+    height: 1146.17px;
+    flex-direction: column;
+}
+
+.aside_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 193.33px;
+    height: 556;
+}
+
+.article_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 70px;
+    margin-left: 113.38px;
+    position: relative;
+}
+
+.article_container aside {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.practice h1 {
+    width: 706px;
+    height: 140px;
+    margin-top: 77px;
+    margin-left: 606px;
+    margin-bottom: 0;
+}
+
+.practice #practice_main_p {
+    width: 1105px;
+    height: 62px;
+    margin-top: 22px;
+    margin-left: 407px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.practice #practice_main_h {
+    box-sizing: content-box;
+    width: 1920px;
+    height: 224px;
+}
+
+.practice h2 {
+    visibility: visible;
+    width: 619px;
+    margin-top: 85px;
+    margin-left: 88px;
+    margin-bottom: 0;
+}
+
+.practice p {
+    visibility: visible;
+    width: 619px;
+    margin-left: 88px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+#Practice_img {
+    height: 594px;
+    width: 745px;
+    padding-top: 94px;
+}
+
+
+/*Оформление текста*/
+.practice h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.article_container h2 {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+.practice p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#practice_main_p {
+    text-align: left;
+}
+
+
+/*Декоративные эффекты (фоны, тени и так далее)*/
+.practice {
+    background-image:
+        url(assets_new/practice/background.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 315px;
+    background-color: rgba(59, 209, 187, 0.09);
+}
+
+
+.article_container aside {
+    background:
+        url(assets_new/practice/arrow.png) bottom 73px left 605px no-repeat,
+        url(assets_new/practice/Subtract.png) no-repeat;
+    width: 818px;
+    height: 333px;
+    visibility: hidden;
+}
+
+
+/*Анимация и динамические эффекты*/
+.article_container aside:hover {
+    background:
+        url(assets_new/practice/arrow.png) bottom 73px left 605px no-repeat,
+        url(assets_new/practice/Subtract.png) no-repeat;
+    width: 818px;
+    height: 333px;
+    visibility: visible;
+}
